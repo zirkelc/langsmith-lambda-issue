@@ -13,7 +13,7 @@ globalThis.__dirname = (await import("node:path")).dirname(__filename);
 `;
 
 const config: Serverless = {
-  service: '<SERVICE>',
+  service: 'langsmith-lambda-issue',
   frameworkVersion: '3',
   package: {
     individually: true,
